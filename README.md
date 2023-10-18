@@ -16,3 +16,38 @@ The worst-case scenario occurs when the input array is sorted in reverse order. 
 Yes, Insertion Sort would be a good choice because itis efficient in the best-case scenario, which occurs when the input is already partially sorted or nearly sorted.
 
 
+
+
+
+
+QUESTION 2
+
+Linear search
+Linear search is a simple search algorithm that checks every element in a list or array to find a specific value. It starts at the beginning of the list and examines each element in order until the target value is found or the entire list is searched.
+
+Binary search
+Binary search is a search algorithm that works on sorted data. It repeatedly divides the search interval in half and compares the target value with the middle element.
+
+Merge sort
+Merge Sort is a sorting algorithm that does the divide-and-conquer. It divides the list into smaller sublists, sorts them, and then merges the sorted sublists to produce the final sorted list.
+
+Quick sort
+Quick Sort also  follows the divide-and-conquer approach. It selects a "pivot" element and partitions the list into two sublists, one containing elements less than the pivot and the other containing elements greater than the pivot. 
+
+PSEUDO CODE
+
+function findMax(arr):
+    max = arr[0]  // Initialize max to the first element of the array
+    for i from 1 to length of arr - 1:
+        if arr[i] > max:
+            max = arr[i]
+    return max
+
+
+Complexity analysis
+Time Complexity: O(n) 
+Space Complexity: O(1) 
+
+
+
+
