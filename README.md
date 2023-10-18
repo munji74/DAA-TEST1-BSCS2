@@ -37,11 +37,13 @@ Quick Sort also  follows the divide-and-conquer approach. It selects a "pivot" e
 PSEUDO CODE
 
 function findMax(arr):
-    max = arr[0]  // Initialize max to the first element of the array
+    max = arr[0] 
+    
     for i from 1 to length of arr - 1:
         if arr[i] > max:
             max = arr[i]
     return max
+
 
 
 Complexity analysis
